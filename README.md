@@ -1,4 +1,5 @@
 5D Market Regime Classification for Bitcoin using XGBoost
+
 Overview
 This project develops a robust 5D market regime classification system for Bitcoin (BTC) using the XGBoost machine learning model. The system computes market regime vectors across multiple timeframes (4-hour, daily, and weekly) to generate a 5D vector consisting of Direction, Momentum, Volatility, Participation, and Confidence. The goal is to provide high-signal, low-noise features for training XGBoost models, enabling accurate market regime classification. This 5D vector serves as a foundational tool for downstream applications, such as determining position sizing, selecting trading strategies, or providing market context for other models.
 
