@@ -1,0 +1,26 @@
+# Database configuration
+database:
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "postgres"
+  database_name: "evolabz"
+
+# Logging configuration
+logging:
+  level: "INFO"
+  handlers: "console, file"
+  log_file: "app.log"
+
+# Statistical thresholds
+statistical_thresholds:
+  correlation_threshold: 0.5
+  p_value_threshold: 0.05
+
+# four hour calculation parameters
+four_hour:
+  volatility_signature:
+    atr_period: 14
+    percentile_period: 100
+  volume_intensity:
+    window: 20
